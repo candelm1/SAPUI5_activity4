@@ -79,12 +79,25 @@
           "target": [
             "TargetMainView"
           ]
+        },
+        {
+          "name": "RouteReviewPage",
+          "pattern": "Review/{firstName}",
+          "target": ["TargetReviewPage"]
         }
+
       ],
       "targets": {
         "TargetMainView": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
           "id": "MainView",
           "name": "MainView"
+        },
+        "TargetReviewPage": {
+          "viewId": "ReviewPage",
+          "viewName": "ReviewPage"
         }
       }
     },

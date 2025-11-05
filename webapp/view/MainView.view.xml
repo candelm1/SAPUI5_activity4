@@ -24,6 +24,7 @@
             </f:SimpleForm>
         </VBox>
 
+        <!--
         <Table id="idTableSCart" inset="false">
             <headerToolbar>
                 <OverflowToolbar id="idOFT">
@@ -62,7 +63,10 @@
                 </ColumnListItem>
             </items>
         </Table>
-
+        -->
+        <!--replacement for the commented codes above which is now in Fragment-->
+        <core:Fragment fragmentName="com.training.exer1candelaria.fragment.ShoppingCart" type="XML" />
+        
         <footer>
                 <OverflowToolbar id="idOFTFooter" >
                     <ToolbarSpacer id="idTSpacerFooter" class="sapUiSmallMargin sapUiFloatRight"/>
